@@ -1,1 +1,1 @@
-# Article_Writer_IA_Solution
+# article-writer-AI-solution-
