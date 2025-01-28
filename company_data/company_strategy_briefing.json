@@ -1,0 +1,21 @@
+{
+    "CompanyName": "TechNova",
+    "targetAudience": "Small and medium-sized technology and retail companies",
+    "toneOfVoice": "Formal, yet accessible and friendly",
+    "mainProducts": [
+        "BI Platform",
+        "Big Data Consulting Service",
+        "Data Visualization Tools"
+    ],
+    "coreValues": [
+        "Innovation",
+        "Transparency",
+        "Sustainability",
+        "Customer Focus"
+    ],
+    "communicationStyle": "Formal, however accessible and friendly",
+    "competitiveDifferentiator": "Innovative and technology-driven data analytics solutions",
+    "marketingObjectives": "Increase brand awareness in the global market, drive conversions through simplified data solutions for medium-sized enterprises",
+    "mission": "Simplify data usage for medium-sized enterprises",
+    "vision": "To be a global reference in data analytics solutions"
+}
