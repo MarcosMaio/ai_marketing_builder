@@ -1,21 +1,32 @@
 {
     "CompanyName": "TechNova",
-    "targetAudience": "Small and medium-sized technology and retail companies",
-    "toneOfVoice": "Formal, yet accessible and friendly",
+    "targetAudience": {
+        "primary": "Médias empresas de tecnologia e varejo",
+        "secondary": "Pequenas empresas que buscam expandir suas capacidades de análise de dados"
+    },
+    "toneOfVoice": "Formal, porém acessível e amigável",
     "mainProducts": [
-        "BI Platform",
-        "Big Data Consulting Service",
-        "Data Visualization Tools"
+        "Plataforma de BI",
+        "Serviço de consultoria em Big Data",
+        "Ferramentas de Data Visualization"
     ],
     "coreValues": [
-        "Innovation",
-        "Transparency",
-        "Sustainability",
-        "Customer Focus"
+        "Inovação",
+        "Transparência",
+        "Sustentabilidade",
+        "Foco no Cliente"
     ],
-    "communicationStyle": "Formal, however accessible and friendly",
-    "competitiveDifferentiator": "Innovative and technology-driven data analytics solutions",
-    "marketingObjectives": "Increase brand awareness in the global market, drive conversions through simplified data solutions for medium-sized enterprises",
-    "mission": "Simplify data usage for medium-sized enterprises",
-    "vision": "To be a global reference in data analytics solutions"
+    "communicationStyle": "Formal, porém acessível e amigável",
+    "competitiveDifferentiator": "Foco em inovação para agilizar tomadas de decisão por meio de plataformas acessíveis e consultorias estratégicas em big data.",
+    "marketingObjectives": [
+        "Aumentar a conscientização sobre as soluções de data analytics",
+        "Converter leads em clientes recorrentes",
+        "Posicionar a TechNova como referência global em data analytics"
+    ],
+    "additionalFields": {
+        "mission": "Simplificar o uso de dados para empresas de médio porte.",
+        "vision": "Ser referência global em soluções de data analytics.",
+        "persona": "Profissionais de TI e executivos que buscam agilizar tomadas de decisão baseadas em dados.",
+        "foundedYear": 2010
+    }
 }
