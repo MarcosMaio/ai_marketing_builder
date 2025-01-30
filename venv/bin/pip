@@ -1,4 +1,4 @@
-#!/home/marcos_maio/projects/beta-version-ai-marketing-builder/venv/bin/python3
+#!/home/marcos_maio/projects/beta-version-ai-marketing-builder/venv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys

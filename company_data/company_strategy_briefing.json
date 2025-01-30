@@ -1,32 +1,24 @@
 {
     "CompanyName": "TechNova",
-    "targetAudience": {
-        "primary": "Médias empresas de tecnologia e varejo",
-        "secondary": "Pequenas empresas que buscam expandir suas capacidades de análise de dados"
-    },
-    "toneOfVoice": "Formal, porém acessível e amigável",
+    "targetAudience": "Medium-sized technology companies",
+    "personas": "IT professionals and executives seeking to expedite data-driven decision-making",
+    "toneOfVoice": "Formal and professional, yet accessible and friendly",
     "mainProducts": [
-        "Plataforma de BI",
-        "Serviço de consultoria em Big Data",
-        "Ferramentas de Data Visualization"
+        "BI Platform",
+        "Big Data Consulting Services",
+        "Data Visualization Tools"
     ],
     "coreValues": [
-        "Inovação",
-        "Transparência",
-        "Sustentabilidade",
-        "Foco no Cliente"
+        "Innovation",
+        "Transparency",
+        "Sustainability",
+        "Customer Focus"
     ],
-    "communicationStyle": "Formal, porém acessível e amigável",
-    "competitiveDifferentiator": "Foco em inovação para agilizar tomadas de decisão por meio de plataformas acessíveis e consultorias estratégicas em big data.",
+    "communicationStyle": "Formal, yet accessible and friendly",
+    "competitiveDifferentiator": "Combining innovation with technology for efficient data management solutions",
     "marketingObjectives": [
-        "Aumentar a conscientização sobre as soluções de data analytics",
-        "Converter leads em clientes recorrentes",
-        "Posicionar a TechNova como referência global em data analytics"
-    ],
-    "additionalFields": {
-        "mission": "Simplificar o uso de dados para empresas de médio porte.",
-        "vision": "Ser referência global em soluções de data analytics.",
-        "persona": "Profissionais de TI e executivos que buscam agilizar tomadas de decisão baseadas em dados.",
-        "foundedYear": 2010
-    }
+        "Increase brand awareness in global markets",
+        "Drive conversions by showcasing efficiency in data management",
+        "Build long-term relationships with medium-sized tech companies"
+    ]
 }

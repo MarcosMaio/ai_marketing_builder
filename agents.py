@@ -6,7 +6,7 @@ from crewai_tools import DallETool
 import os
 
 
-logger = logging.getLogger("cads_senior")
+logger = logging.getLogger("AI-Workflow")
 
 
 class Agents:
@@ -508,6 +508,9 @@ class Agents:
             - Ensure the image enhances the theme's message and adds value to the post.
             - Align with the brand's values and visual identity.
             - Validate compliance with content policies (e.g., avoid offensive or irrelevant visuals).
+            
+            **Pay Attention to the general rules to be follow:**
+            ({general_rules})
             """,
             expected_output="""
                 The expected output is a JSON object containing the generated image details, for example:
@@ -572,6 +575,9 @@ class Agents:
             - Avoid overloading the content with hashtags; limit them to 5-10 highly relevant ones.
             - Align with the brand's values and tone.
             - If the `imageGenerated` is available, ensure the hashtags complement the visual content.
+            
+            **Pay Attention to the general rules to be follow:**
+            ({general_rules})
             """,
             expected_output="""
                 The expected output is a JSON object containing the optimized content and hashtags, for example:
@@ -686,6 +692,7 @@ class Agents:
             manager_agent=ManagerAgent,
             manager_llm=self.llm,
             verbose=True,
+            memory=True,
         )
 
         result = crew.kickoff(
