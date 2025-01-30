@@ -36,7 +36,6 @@ class Agents:
             are aligned with the brand strategy.
             """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=True,
@@ -94,7 +93,7 @@ class Agents:
             agent=agent,
         )
 
-        crew = Crew(agents=[agent], tasks=[task])
+        crew = Crew(agents=[agent], tasks=[task], memory=True)
 
         result = crew.kickoff(inputs={"company_data": company_data})
 
@@ -165,7 +164,6 @@ class Agents:
                 a record of recently used themes.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -187,7 +185,6 @@ class Agents:
                 the target audience while maintaining the brand's voice.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -203,7 +200,6 @@ class Agents:
                 You are a specialist in content review and compliance. Your role is to ensure the text created by the copywriting agent is polished, accurate, and aligned with all relevant grammatical and compliance rules. You aim to elevate the quality and ensure the text is ready for publication.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -222,7 +218,6 @@ class Agents:
                 to ensure maximum engagement and alignment with the brand's identity.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -242,7 +237,6 @@ class Agents:
                 its potential reach.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -259,7 +253,6 @@ class Agents:
                 As the last step in the workflow, you take the final content package and handle its publication to the chosen social media platform. Your role ensures that the content reaches the intended audience and provides feedback on the success of the posting process.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -278,7 +271,6 @@ class Agents:
                 You are responsible for managing the entire content generation pipeline, ensuring all agents complete their tasks effectively and in the correct order. While you do not perform tasks directly, you validate that the outputs meet the expected standards and facilitate efficient collaboration among agents.
                 """,
             llm=self.llm,
-            memory=True,
             max_iter=1,
             cache=False,
             verbose=False,
@@ -359,6 +351,7 @@ class Agents:
                 - A headline (short, captivating, and aligned with the platform).
                 - The main body of text (persuasive or informative based on the theme).
                 - A Call-to-Action (CTA) that encourages engagement (e.g., comments, shares, clicks).
+                - Do not include links or mentions about links in the CTA.
             - Format the text to fit the target platform (e.g., LinkedIn), adhering to character limits and style.
 
             3. **Internal Reasoning:**
